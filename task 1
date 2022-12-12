@@ -1,0 +1,16 @@
+def linear_Search(list1, n, key):  
+  
+    for i in range(0, n):  
+        if (list1[i] == key):  
+            return i  
+            return-1
+  
+list1 = [2,4,6,8,10,12,14,16]  
+key = 10
+  
+n = len(list1)  
+res = linear_Search(list1, n, key)  
+if(res == -1):  
+    print("Element is not present in the array")  
+else:  
+    print("Element is present at index: ", res)  
